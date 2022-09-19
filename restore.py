@@ -57,4 +57,3 @@ if '\\' in path:
         path = path.replace('\\' , '/')
 shutil.copytree(drive , path)
 print('Files have been restored successfully.')
-#project restore is complete
